@@ -1,0 +1,26 @@
+.Section {
+    font-weight: 600;
+    width: 60%;
+    margin: 10px auto 10px;
+    background-color: #f6f6f6; 
+    box-shadow: 0 2px 3px #ccc;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Section:hover {
+    background-color: #5e5e5e;
+    color: #ffffff;
+  }
+
+.Section:active {
+    background-color: #1eafed;
+  }
+
+@media (min-width: 500px) {
+    .Section {
+        width: 350px;
+    }
+}

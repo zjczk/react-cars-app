@@ -1,0 +1,14 @@
+.Message {
+    color: #1eafed;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 30px;
+}
+
+.SectionList {
+    list-style: none;
+    background-color: #f1f1f1; 
+    padding: 10px 50px 20px;
+    border-radius: 30px;
+    margin: 10px 50px 20px;
+}

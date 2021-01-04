@@ -1,0 +1,41 @@
+.Header {
+    color: #5e5e5e;
+    font-weight: bold;
+}
+
+.Names {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+        
+.Horizontal {
+    padding-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .Horizontal {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 10px 20px 10px;
+        grid-gap: 20px;
+    }
+}
+              
+.Name {
+    margin-right: 2px;
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+}
+              
+.Name::after {
+    content: '\f1b9';
+    color: #1eafed;
+    font-family: FontAwesome;
+    font-size: 1.1em;
+    opacity: 0.6;
+    margin-left: 1rem;
+}
+    
